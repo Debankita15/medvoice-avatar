@@ -12,8 +12,7 @@ This project is a **work-in-progress** and is part of a **volunteer initiative**
 - **Text-to-Speech (TTS)**: Converts prescription text into human-like speech using Amazon Polly.
 - **Avatar Integration**: Avatars, generated using AI tools such as Artbreeder, are synced with audio output, providing a visual representation.
 - **Prescription Processing**: Automatically processes medical prescription data and transforms it into spoken word.
-- **Multiple Languages**: Currently supports English and Hindi, with the potential to expand to other languages.
-- **User-Generated Avatars**: While we provide default avatars, users can also upload their custom avatars to personalize the output.
+- **Multiple Languages**: Currently supports English with the potential to expand to other languages.
 
 ---
 
@@ -51,7 +50,7 @@ This project is under active development. Here are some of the upcoming features
 ### How It Works
 1. **Scan Prescription**: Upload a medical prescription in text form.
 2. **TTS with Amazon Polly**: The text is processed by Amazon Polly, which converts the prescription text into speech.
-3. **Avatar Creation**: The user can either upload a custom avatar or use a default AI-generated avatar.
+3. **Avatar**: The user currently uses a default AI-generated avatar.
 4. **Video Generation**: The avatar is synchronized with the audio, and a video is generated showing the avatar reading out the prescription.
 
 ---
@@ -64,6 +63,7 @@ This project is under active development. Here are some of the upcoming features
 
 ### To-Do List
 - [ ] Improve avatar creation pipeline.
+- [ ] Users can upload their custom avatars to personalize the output.
 - [ ] Optimize video generation times.
 - [ ] Add support for more languages.
 - [ ] Handle longer prescriptions by combining smaller audio chunks.
