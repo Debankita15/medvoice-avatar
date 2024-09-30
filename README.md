@@ -16,6 +16,23 @@ This project is a **work-in-progress** and is part of a **volunteer initiative**
 
 ---
 
+### Kaggle Dataset
+
+Using a **Kaggle prescription dataset** for testing purposes in this project. The dataset includes prescription information along with patient problems and the diagnosed disease. You can find the dataset on Kaggle [here](https://www.kaggle.com/datasets/adilmohammed/medical-data?resource=download). This dataset helps test the application’s ability to convert prescription text to speech and synchronize it with the avatar.
+
+For more details on how to integrate the Kaggle dataset:
+1. Download the dataset from Kaggle.
+2. Mount the Kaggle dataset in Google Colab or your local environment.
+3. Use the following command to load the dataset:
+   ```python
+   import pandas as pd
+   df = pd.read_csv('path_to_dataset.csv')
+4. Extract the prescription text from the dataset and pass it through the TTS system
+   ```python
+   prescription_text = df.iloc[0]['Prescription']
+
+---
+
 ### Work in Progress
 This project is under active development. Here are some of the upcoming features:
 - **Character Limit Handling**: Amazon Polly has a limit of 3,000 characters per request. Currently working on strategies to combine audio files for longer prescriptions.
