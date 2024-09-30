@@ -42,6 +42,20 @@ This project is under active development. Here are some of the upcoming features
 
 ---
 
+### Weekly Progress
+
+**September 16th - September 22nd**
+- **Initial Planning and Dataset Selection**: We explored various datasets and decided to use a Kaggle prescription dataset for our initial testing phase. Preliminary setup of Amazon Polly for TTS was completed, and the basic functionality was tested on sample prescription texts.
+- **Avatar Integration Research**: Investigated different avatar creation tools, including Artbreeder, and began integrating these into the project pipeline.
+- **TTS Constraints**: Identified the 3,000-character limit of Amazon Polly, and started working on strategies to split the text for longer prescriptions.
+
+**September 23rd - September 29th**
+- **Avatar Synchronization and Video Generation**: Successfully integrated Amazon Polly TTS with avatars, generating video output for prescriptions. Initial tests showed that video processing could take up to an hour, so we started optimizing the workflow to reduce time.
+- **Character Limit Handling**: Worked on splitting longer texts and combining multiple audio files into a single output.
+- **Kaggle Dataset Testing**: Began testing the Kaggle prescription dataset with Amazon Polly and avatar syncing.
+
+---
+
 ### Setup
 
 1. **Clone the Repository**:
