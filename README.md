@@ -36,8 +36,8 @@ This project is under active development. Here are some of the upcoming features
 2. **Install Dependencies**:
    Use the following command to install the required Python libraries.
 
-  ```bash
-  pip install -r requirements.txt
+     ```bash
+     pip install -r requirements.txt
 
 3. **Set up Amazon Polly API**:
   To use Amazon Polly for TTS, ensure that you have the necessary access credentials. You can follow Amazon Polly’s setup guide [here](https://docs.aws.amazon.com/polly/).
