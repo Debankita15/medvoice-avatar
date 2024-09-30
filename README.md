@@ -45,8 +45,8 @@ This project is under active development. Here are some of the upcoming features
 4. **Run the Application**:
   Use the following command to process a prescription:
 
-  ```bash
-  python run.py --prescription_file prescription.txt --avatar avatar_image.jpeg
+     ```bash
+     python run.py --prescription_file prescription.txt --avatar avatar_image.jpeg
 
 ### How It Works
 1. **Scan Prescription**: Upload a medical prescription in text form.
